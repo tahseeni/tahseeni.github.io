@@ -1,0 +1,44 @@
+body {
+  background-color: #add8e6;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #2266cb;
+}
+
+h1, h2, p {
+  width: 78%;
+}
+
+hr {
+  color: black;
+  border: 1px solid;
+  align-content: center;
+  width: 5%;
+}
+
+.la-3x:hover {
+  color: orange;
+}
+
+.home-container {
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.my-name {
+  color: #2266cb;
+}
+
+.contact-bar {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.bottom-row {
+  width: 100%;
+  text-align: center;
+  padding-top: 3%;
+}
