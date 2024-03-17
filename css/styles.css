@@ -8,7 +8,7 @@ a {
 }
 
 h1, h2, p {
-  width: 78%;
+  width: 80%;
 }
 
 hr {
@@ -16,6 +16,11 @@ hr {
   border: 1px solid;
   align-content: center;
   width: 5%;
+}
+
+li {
+  margin-left: 10px;
+  /*margin-bottom: 1%; */
 }
 
 .la-3x:hover {
@@ -29,6 +34,29 @@ hr {
 
 .my-name {
   color: #2266cb;
+}
+
+.work-exp {
+  margin-left: 15%;
+}
+
+.current-work {
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.about {
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.thankyou {
+  margin-left: 15%;
+  margin-top: 2%;
+  font-weight: bold;
+  text-align: center;
 }
 
 .contact-bar {
