@@ -1,72 +1,62 @@
 body {
-  background-color: #add8e6;
+  background-color: #131327;
+  color: #9885DD;
   font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #2266cb;
+.accent, a {
+  color: #69d7c7;
 }
 
-h1, h2, p {
-  width: 80%;
-}
-
-hr {
-  color: black;
-  border: 1px solid;
+div {
+  display: block;
   align-content: center;
-  width: 5%;
+
+  /**
+  * how to center a div lmao 
+  */
+  max-width: 35%;
+  margin-inline: auto;
 }
 
-li {
-  margin-left: 10px;
-  /*margin-bottom: 1%; */
+h1, h2 {
+  width: 50%;
 }
 
-.la-3x:hover {
-  color: orange;
-}
-
-.home-container {
-  margin-left: 15%;
-  margin-top: 15%;
+/* Header section - START */
+.header-main {
+  font-size: 0;
+  margin-top: 2rem;
 }
 
 .my-name {
-  color: #2266cb;
+  font-size: 2rem;
 }
 
-.work-exp {
-  margin-left: 15%;
+.header-description {
+  font-size: 1rem;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.current-work {
-  margin-left: 15%;
-  margin-top: 2%;
-  margin-bottom: 1%;
+/* Social media links - START*/
+.social {
+  margin-bottom: 0.25rem;
+  overflow: hidden; 
+  float: right;  
 }
 
-.about {
-  margin-left: 15%;
-  margin-top: 2%;
-  margin-bottom: 1%;
+.la-3x{ 
+  /* Icon size */
+  font-size: 1.5rem;
 }
 
-.thankyou {
-  margin-left: 15%;
-  margin-top: 2%;
-  font-weight: bold;
-  text-align: center;
+.la-3x:hover, a:hover {
+  color: #d6a63c;
 }
 
-.contact-bar {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 2%;
-}
-
-.bottom-row {
-  width: 100%;
-  text-align: center;
-  padding-top: 3%;
+.currently {
+  color: white;
+  font-size: 1rem;
 }
